@@ -68,6 +68,20 @@ struct PomodoroHubRepository {
         }
     }
 
+    func addTask() -> Task? {
+        let newTask = Task(context: context)
+        newTask.id = UUID()
+        newTask.createdAt = Date()
+        
+        do {
+            try context.save()
+            return newTask
+        } catch {
+            print(error.localizedDescription)
+            return nil
+        }
+    }
+    
     func addItem() {
         let newItem = Session(context: context)
         let date = Date()

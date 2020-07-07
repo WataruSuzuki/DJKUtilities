@@ -31,7 +31,7 @@ struct TasksView: View {
             .navigationBarItems(leading: EditButton())
             .navigationBarItems(
                 leading: EditButton(),
-                trailing: Button(action: addItem, label: {
+                trailing: Button(action: addTask, label: {
                     Image(systemName: "plus")
                 }))
     }
@@ -41,7 +41,7 @@ struct TasksView: View {
     private var macOSBody: some View {
         commonBody
             .toolbar(content: {
-                Button(action: addItem) {
+                Button(action: addTask) {
                     Label("Add Item", systemImage: "plus")
                 }
             })
@@ -88,9 +88,9 @@ struct TasksView: View {
 //            }
 //        }
 //    }
-    private func addItem() {
+    private func addTask() {
         withAnimation {
-//            PomodoroHubRepository.shared.addItem()
+            let _ = PomodoroHubRepository.shared.addTask()
 //            store.dispatch(.play)
         }
     }
