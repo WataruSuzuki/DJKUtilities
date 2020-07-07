@@ -61,6 +61,20 @@
 		96C851632581E90C00175694 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C851612581E90C00175694 /* DetailView.swift */; };
 		CCD1E3C025909EA9005E50AA /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3B825909EA9005E50AA /* TasksView.swift */; };
 		CCD1E3C125909EA9005E50AA /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3B825909EA9005E50AA /* TasksView.swift */; };
+		CCD1E3F52591C464005E50AA /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3EF2591C464005E50AA /* TaskDetailsView.swift */; };
+		CCD1E3F62591C464005E50AA /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3EF2591C464005E50AA /* TaskDetailsView.swift */; };
+		CCD1E3F72591C464005E50AA /* TaskInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3F02591C464005E50AA /* TaskInfoView.swift */; };
+		CCD1E3F82591C464005E50AA /* TaskInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3F02591C464005E50AA /* TaskInfoView.swift */; };
+		CCD1E3F92591C464005E50AA /* TextRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3F12591C464005E50AA /* TextRow.swift */; };
+		CCD1E3FA2591C464005E50AA /* TextRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3F12591C464005E50AA /* TextRow.swift */; };
+		CCD1E3FB2591C464005E50AA /* AddingTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3F22591C464005E50AA /* AddingTaskView.swift */; };
+		CCD1E3FC2591C464005E50AA /* AddingTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3F22591C464005E50AA /* AddingTaskView.swift */; };
+		CCD1E3FD2591C464005E50AA /* TextFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3F32591C464005E50AA /* TextFieldRow.swift */; };
+		CCD1E3FE2591C464005E50AA /* TextFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3F32591C464005E50AA /* TextFieldRow.swift */; };
+		CCD1E3FF2591C464005E50AA /* TextEditorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3F42591C464005E50AA /* TextEditorRow.swift */; };
+		CCD1E4002591C464005E50AA /* TextEditorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3F42591C464005E50AA /* TextEditorRow.swift */; };
+		CCD1E4162591C69F005E50AA /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E4152591C69F005E50AA /* TaskViewModel.swift */; };
+		CCD1E4172591C69F005E50AA /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E4152591C69F005E50AA /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +132,13 @@
 		96C851052580BBE700175694 /* PomodoroReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroReducer.swift; sourceTree = "<group>"; };
 		96C851612581E90C00175694 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		CCD1E3B825909EA9005E50AA /* TasksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		CCD1E3EF2591C464005E50AA /* TaskDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsView.swift; sourceTree = "<group>"; };
+		CCD1E3F02591C464005E50AA /* TaskInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskInfoView.swift; sourceTree = "<group>"; };
+		CCD1E3F12591C464005E50AA /* TextRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextRow.swift; sourceTree = "<group>"; };
+		CCD1E3F22591C464005E50AA /* AddingTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddingTaskView.swift; sourceTree = "<group>"; };
+		CCD1E3F32591C464005E50AA /* TextFieldRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldRow.swift; sourceTree = "<group>"; };
+		CCD1E3F42591C464005E50AA /* TextEditorRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditorRow.swift; sourceTree = "<group>"; };
+		CCD1E4152591C69F005E50AA /* TaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +249,7 @@
 				96C850D12580ADD700175694 /* Views */,
 				96C851482581BFE900175694 /* Redux */,
 				96C8512F2581BBE800175694 /* Repositories */,
+				CCD1E4102591C669005E50AA /* ViewModels */,
 				96C8509D25809BCE00175694 /* Models */,
 				96788CAB257F4C5F004E66DE /* Assets.xcassets */,
 				96425B2F258B19BC007DF8A9 /* Localizable.strings */,
@@ -306,6 +328,7 @@
 				961ED92A25899ACD002C53E2 /* SessionView.swift */,
 				961ED92B25899ACD002C53E2 /* Session */,
 				CCD1E3B825909EA9005E50AA /* TasksView.swift */,
+				CCD1E3EE2591C464005E50AA /* Tasks */,
 				96788CA9257F4C5E004E66DE /* ActivitiesView.swift */,
 				96C851612581E90C00175694 /* DetailView.swift */,
 			);
@@ -353,6 +376,27 @@
 				96C851042580BBD800175694 /* Reducers */,
 			);
 			path = Redux;
+			sourceTree = "<group>";
+		};
+		CCD1E3EE2591C464005E50AA /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD1E3EF2591C464005E50AA /* TaskDetailsView.swift */,
+				CCD1E3F02591C464005E50AA /* TaskInfoView.swift */,
+				CCD1E3F12591C464005E50AA /* TextRow.swift */,
+				CCD1E3F22591C464005E50AA /* AddingTaskView.swift */,
+				CCD1E3F32591C464005E50AA /* TextFieldRow.swift */,
+				CCD1E3F42591C464005E50AA /* TextEditorRow.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		CCD1E4102591C669005E50AA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CCD1E4152591C69F005E50AA /* TaskViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,16 +560,22 @@
 			files = (
 				961ED93325899ACD002C53E2 /* TimerView.swift in Sources */,
 				96C850DF2580BA8800175694 /* PomodoroState.swift in Sources */,
+				CCD1E3FF2591C464005E50AA /* TextEditorRow.swift in Sources */,
 				961ED9442589B371002C53E2 /* SessionState.swift in Sources */,
 				96C851622581E90C00175694 /* DetailView.swift in Sources */,
 				961ED93525899ACD002C53E2 /* ControlPanelView.swift in Sources */,
+				CCD1E3F72591C464005E50AA /* TaskInfoView.swift in Sources */,
 				96C850EB2580BACF00175694 /* PomodoroAction.swift in Sources */,
 				961ED8942589962B002C53E2 /* TopMenuView.swift in Sources */,
 				961ED8CE25899730002C53E2 /* Enum+Description.swift in Sources */,
 				961ED8DE25899730002C53E2 /* String+Snakenized.swift in Sources */,
 				96C850AF2580A11F00175694 /* PomodoroHubRepository.swift in Sources */,
+				CCD1E3F92591C464005E50AA /* TextRow.swift in Sources */,
+				CCD1E3FB2591C464005E50AA /* AddingTaskView.swift in Sources */,
 				96788CD4257F4C5F004E66DE /* PomodoroHubApp.swift in Sources */,
+				CCD1E3FD2591C464005E50AA /* TextFieldRow.swift in Sources */,
 				961ED8E025899730002C53E2 /* String+Encript.swift in Sources */,
+				CCD1E4162591C69F005E50AA /* TaskViewModel.swift in Sources */,
 				96C851062580BBE700175694 /* PomodoroReducer.swift in Sources */,
 				96788CD2257F4C5F004E66DE /* PomodoroHub.xcdatamodeld in Sources */,
 				961ED8E625899730002C53E2 /* String+DateFormat.swift in Sources */,
@@ -533,6 +583,7 @@
 				961ED93125899ACD002C53E2 /* ReviewingView.swift in Sources */,
 				961ED8E425899730002C53E2 /* String+Camelized.swift in Sources */,
 				96C850F32580BB0A00175694 /* PomodoroStore.swift in Sources */,
+				CCD1E3F52591C464005E50AA /* TaskDetailsView.swift in Sources */,
 				CCD1E3C025909EA9005E50AA /* TasksView.swift in Sources */,
 				961ED8E225899730002C53E2 /* String+Localized.swift in Sources */,
 				961ED92F25899ACD002C53E2 /* SessionView.swift in Sources */,
@@ -547,16 +598,22 @@
 			files = (
 				961ED93425899ACD002C53E2 /* TimerView.swift in Sources */,
 				96C850E02580BA8800175694 /* PomodoroState.swift in Sources */,
+				CCD1E4002591C464005E50AA /* TextEditorRow.swift in Sources */,
 				961ED9452589B372002C53E2 /* SessionState.swift in Sources */,
 				96C851632581E90C00175694 /* DetailView.swift in Sources */,
 				961ED93625899ACD002C53E2 /* ControlPanelView.swift in Sources */,
+				CCD1E3F82591C464005E50AA /* TaskInfoView.swift in Sources */,
 				96C850EC2580BACF00175694 /* PomodoroAction.swift in Sources */,
 				961ED8952589962B002C53E2 /* TopMenuView.swift in Sources */,
 				961ED8CF25899730002C53E2 /* Enum+Description.swift in Sources */,
 				961ED8DF25899730002C53E2 /* String+Snakenized.swift in Sources */,
 				96C850B02580A11F00175694 /* PomodoroHubRepository.swift in Sources */,
+				CCD1E3FA2591C464005E50AA /* TextRow.swift in Sources */,
+				CCD1E3FC2591C464005E50AA /* AddingTaskView.swift in Sources */,
 				96788CD5257F4C5F004E66DE /* PomodoroHubApp.swift in Sources */,
+				CCD1E3FE2591C464005E50AA /* TextFieldRow.swift in Sources */,
 				961ED8E125899730002C53E2 /* String+Encript.swift in Sources */,
+				CCD1E4172591C69F005E50AA /* TaskViewModel.swift in Sources */,
 				96C851072580BBE700175694 /* PomodoroReducer.swift in Sources */,
 				96788CD3257F4C5F004E66DE /* PomodoroHub.xcdatamodeld in Sources */,
 				961ED8E725899730002C53E2 /* String+DateFormat.swift in Sources */,
@@ -564,6 +621,7 @@
 				961ED93225899ACD002C53E2 /* ReviewingView.swift in Sources */,
 				961ED8E525899730002C53E2 /* String+Camelized.swift in Sources */,
 				96C850F42580BB0A00175694 /* PomodoroStore.swift in Sources */,
+				CCD1E3F62591C464005E50AA /* TaskDetailsView.swift in Sources */,
 				CCD1E3C125909EA9005E50AA /* TasksView.swift in Sources */,
 				961ED8E325899730002C53E2 /* String+Localized.swift in Sources */,
 				961ED93025899ACD002C53E2 /* SessionView.swift in Sources */,

@@ -9,9 +9,9 @@ import SwiftUI
 
 struct TaskDetailsView: View {
     @Environment(\.editMode) var mode
-    @EnvironmentObject var router: Router
-    @EnvironmentObject var currentWorker: CurrentWorker
-    @ObservedObject var activities: ActivitiesViewModel
+//    @EnvironmentObject var router: Router
+//    @EnvironmentObject var currentWorker: CurrentWorker
+//    @ObservedObject var activities: ActivitiesViewModel
     @ObservedObject var task: TaskViewModel
     @State private var askOverwrite = false
 
@@ -37,17 +37,17 @@ struct TaskDetailsView: View {
             })
             .onReceive(mode.publisher, perform: { _ in
                 if let editMode = mode?.wrappedValue, editMode == .inactive {
-                    activities.update(task: task)
+//                    activities.update(task: task)
                 }
             })
             VStack {
                 Spacer()
                 Button(action: {
-                    guard !currentWorker.task.valid else {
-                        askOverwrite = true
-                        return
-                    }
-                    startNewSession()
+//                    guard !currentWorker.task.valid else {
+//                        askOverwrite = true
+//                        return
+//                    }
+//                    startNewSession()
                 }) {
                     Text("Start working")
                         .foregroundColor(Color.white)
@@ -75,14 +75,14 @@ struct TaskDetailsView: View {
     }
     
     private func startNewSession() {
-        currentWorker.task = task
-        
-        currentWorker.session = SessionViewModel()
-        currentWorker.session.state = .play
-        
-        activities.startSession(task: task)
-        
-        router.menu = TopMenus.session
+//        currentWorker.task = task
+//
+//        currentWorker.session = SessionViewModel()
+//        currentWorker.session.state = .play
+//
+//        activities.startSession(task: task)
+//
+//        router.menu = TopMenus.session
     }
 }
 
@@ -90,7 +90,7 @@ struct TaskDetailsView: View {
 struct TaskDetailsView_Previews: PreviewProvider {
     static var previews: some View {
         TaskDetailsView(
-            activities: ActivitiesViewModel(),
+//            activities: ActivitiesViewModel(),
             task: TaskViewModel()
         )
     }

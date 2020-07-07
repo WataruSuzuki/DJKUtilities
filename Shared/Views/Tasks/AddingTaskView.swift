@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct AddingTaskView: View {
-    @EnvironmentObject var router: TaskRouter
-    @ObservedObject var activities: ActivitiesViewModel
+//    @EnvironmentObject var router: TaskRouter
+//    @ObservedObject var activities: ActivitiesViewModel
     @ObservedObject var newTask = TaskViewModel()
     @State private var notValidInput = false
     
@@ -26,14 +26,14 @@ struct AddingTaskView: View {
             }
             .navigationBarItems(
                 leading: Button(action: {
-                    router.sheet = nil
+//                    router.sheet = nil
                 }) {
                     Image(systemName: "xmark")
                 },
                 trailing: Button(action: {
                     if newTask.valid {
-                        activities.addNewOne(task: newTask)
-                        router.sheet = nil
+//                        activities.addNewOne(task: newTask)
+//                        router.sheet = nil
                     } else {
                         notValidInput = true
                     }
@@ -55,6 +55,6 @@ struct AddingTaskView: View {
 
 struct AddingTaskView_Previews: PreviewProvider {
     static var previews: some View {
-        AddingTaskView(activities: ActivitiesViewModel())
+        AddingTaskView()
     }
 }
