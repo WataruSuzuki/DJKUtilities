@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct TasksView: View {
-//    @ObservedObject var taskRouter = TaskRouter()
     @EnvironmentObject var store: PomodoroStore
 
     @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Session.playedAt, ascending: true)],
+        sortDescriptors: [NSSortDescriptor(keyPath: \Task.createdAt, ascending: true)],
         animation: .default)
-    private var items: FetchedResults<Session>
+    private var items: FetchedResults<Task>
 
     var body: some View {
         NavigationView {
@@ -53,7 +52,7 @@ struct TasksView: View {
         List {
             ForEach(items) { item in
                 NavigationLink(destination: DetailView()) {
-                    Text("Item at \(item.playedAt!, formatter: itemFormatter)")
+                    Text("Item at \(item.createdAt!, formatter: itemFormatter)")
                 }
             }
             .onDelete(perform: deleteItems)
@@ -91,14 +90,14 @@ struct TasksView: View {
 //    }
     private func addItem() {
         withAnimation {
-            PomodoroHubRepository.shared.addItem()
-            store.dispatch(.play)
+//            PomodoroHubRepository.shared.addItem()
+//            store.dispatch(.play)
         }
     }
 
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
-            PomodoroHubRepository.shared.deleteItems(items: items, offsets: offsets)
+//            PomodoroHubRepository.shared.deleteItems(items: items, offsets: offsets)
         }
     }
 }
