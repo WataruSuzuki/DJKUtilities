@@ -1,0 +1,35 @@
+name: Test iOS
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Recover failing checkout submodules V2
+      shell: bash
+      run: |
+        auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+        git submodule sync --recursive
+        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+
+    - name: Setup xcode version
+      run: |
+        xcodebuild -version
+    # sudo xcode-select -s '/Applications/Xcode_12.app/Contents/Developer'
+    # xcodebuild -version
+
+    - name: Check environment
+      run: |
+        xcodebuild -version
+        xcrun xctrace list devices
+
+    - name: Run tests (iOS)
+      run: xcodebuild test -scheme "PomodoroHub (iOS)" -destination 'platform=iOS Simulator,name=iPod touch (7th generation)'
