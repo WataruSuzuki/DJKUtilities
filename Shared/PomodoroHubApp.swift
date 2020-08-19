@@ -9,12 +9,15 @@ import SwiftUI
 
 @main
 struct PomodoroHubApp: App {
-    let persistenceController = PersistenceController.shared
+    let repository = PomodoroHubRepository.shared
+    let store = PomodoroStore(initialState: .init(current: .determined),
+                             reducer: pomodoroReducer)
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(\.managedObjectContext, repository.context)
+                .environmentObject(store)
         }
     }
 }
