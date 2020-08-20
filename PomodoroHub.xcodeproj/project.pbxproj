@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961ED8942589962B002C53E2 /* TopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8932589962B002C53E2 /* TopMenuView.swift */; };
+		961ED8952589962B002C53E2 /* TopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8932589962B002C53E2 /* TopMenuView.swift */; };
+		961ED8CC25899730002C53E2 /* Date+FormatterStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8AA25899730002C53E2 /* Date+FormatterStr.swift */; };
+		961ED8CD25899730002C53E2 /* Date+FormatterStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8AA25899730002C53E2 /* Date+FormatterStr.swift */; };
+		961ED8CE25899730002C53E2 /* Enum+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8AC25899730002C53E2 /* Enum+Description.swift */; };
+		961ED8CF25899730002C53E2 /* Enum+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8AC25899730002C53E2 /* Enum+Description.swift */; };
+		961ED8DE25899730002C53E2 /* String+Snakenized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8B825899730002C53E2 /* String+Snakenized.swift */; };
+		961ED8DF25899730002C53E2 /* String+Snakenized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8B825899730002C53E2 /* String+Snakenized.swift */; };
+		961ED8E025899730002C53E2 /* String+Encript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8B925899730002C53E2 /* String+Encript.swift */; };
+		961ED8E125899730002C53E2 /* String+Encript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8B925899730002C53E2 /* String+Encript.swift */; };
+		961ED8E225899730002C53E2 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8BA25899730002C53E2 /* String+Localized.swift */; };
+		961ED8E325899730002C53E2 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8BA25899730002C53E2 /* String+Localized.swift */; };
+		961ED8E425899730002C53E2 /* String+Camelized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8BB25899730002C53E2 /* String+Camelized.swift */; };
+		961ED8E525899730002C53E2 /* String+Camelized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8BB25899730002C53E2 /* String+Camelized.swift */; };
+		961ED8E625899730002C53E2 /* String+DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8BC25899730002C53E2 /* String+DateFormat.swift */; };
+		961ED8E725899730002C53E2 /* String+DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8BC25899730002C53E2 /* String+DateFormat.swift */; };
+		961ED8E825899730002C53E2 /* String+Capture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8BD25899730002C53E2 /* String+Capture.swift */; };
+		961ED8E925899730002C53E2 /* String+Capture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961ED8BD25899730002C53E2 /* String+Capture.swift */; };
 		96788CC5257F4C5F004E66DE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96788CC4257F4C5F004E66DE /* Tests_iOS.swift */; };
 		96788CD0257F4C5F004E66DE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96788CCF257F4C5F004E66DE /* Tests_macOS.swift */; };
 		96788CD2257F4C5F004E66DE /* PomodoroHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96788CA6257F4C5E004E66DE /* PomodoroHub.xcdatamodeld */; };
 		96788CD3257F4C5F004E66DE /* PomodoroHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96788CA6257F4C5E004E66DE /* PomodoroHub.xcdatamodeld */; };
 		96788CD4257F4C5F004E66DE /* PomodoroHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96788CA8257F4C5E004E66DE /* PomodoroHubApp.swift */; };
 		96788CD5257F4C5F004E66DE /* PomodoroHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96788CA8257F4C5E004E66DE /* PomodoroHubApp.swift */; };
-		96788CD6257F4C5F004E66DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96788CA9257F4C5E004E66DE /* ContentView.swift */; };
-		96788CD7257F4C5F004E66DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96788CA9257F4C5E004E66DE /* ContentView.swift */; };
+		96788CD6257F4C5F004E66DE /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96788CA9257F4C5E004E66DE /* ActivitiesView.swift */; };
+		96788CD7257F4C5F004E66DE /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96788CA9257F4C5E004E66DE /* ActivitiesView.swift */; };
 		96788CDA257F4C5F004E66DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96788CAB257F4C5F004E66DE /* Assets.xcassets */; };
 		96788CDB257F4C5F004E66DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96788CAB257F4C5F004E66DE /* Assets.xcassets */; };
 		96C850AF2580A11F00175694 /* PomodoroHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C850AE2580A11F00175694 /* PomodoroHubRepository.swift */; };
@@ -49,9 +67,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		961ED8932589962B002C53E2 /* TopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuView.swift; sourceTree = "<group>"; };
+		961ED8AA25899730002C53E2 /* Date+FormatterStr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+FormatterStr.swift"; sourceTree = "<group>"; };
+		961ED8AC25899730002C53E2 /* Enum+Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Enum+Description.swift"; sourceTree = "<group>"; };
+		961ED8B825899730002C53E2 /* String+Snakenized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Snakenized.swift"; sourceTree = "<group>"; };
+		961ED8B925899730002C53E2 /* String+Encript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Encript.swift"; sourceTree = "<group>"; };
+		961ED8BA25899730002C53E2 /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		961ED8BB25899730002C53E2 /* String+Camelized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Camelized.swift"; sourceTree = "<group>"; };
+		961ED8BC25899730002C53E2 /* String+DateFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DateFormat.swift"; sourceTree = "<group>"; };
+		961ED8BD25899730002C53E2 /* String+Capture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Capture.swift"; sourceTree = "<group>"; };
 		96788CA7257F4C5E004E66DE /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		96788CA8257F4C5E004E66DE /* PomodoroHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroHubApp.swift; sourceTree = "<group>"; };
-		96788CA9257F4C5E004E66DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96788CA9257F4C5E004E66DE /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
 		96788CAB257F4C5F004E66DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96788CB0257F4C5F004E66DE /* PomodoroHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96788CB3257F4C5F004E66DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,6 +131,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		961ED89E25899730002C53E2 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				961ED89F25899730002C53E2 /* SwiftExtensionChimaera */,
+			);
+			path = modules;
+			sourceTree = SOURCE_ROOT;
+		};
+		961ED89F25899730002C53E2 /* SwiftExtensionChimaera */ = {
+			isa = PBXGroup;
+			children = (
+				961ED8A925899730002C53E2 /* Date */,
+				961ED8AB25899730002C53E2 /* Enum */,
+				961ED8B725899730002C53E2 /* String */,
+			);
+			path = SwiftExtensionChimaera;
+			sourceTree = "<group>";
+		};
+		961ED8A925899730002C53E2 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				961ED8AA25899730002C53E2 /* Date+FormatterStr.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		961ED8AB25899730002C53E2 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				961ED8AC25899730002C53E2 /* Enum+Description.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		961ED8B725899730002C53E2 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				961ED8B825899730002C53E2 /* String+Snakenized.swift */,
+				961ED8B925899730002C53E2 /* String+Encript.swift */,
+				961ED8BA25899730002C53E2 /* String+Localized.swift */,
+				961ED8BB25899730002C53E2 /* String+Camelized.swift */,
+				961ED8BC25899730002C53E2 /* String+DateFormat.swift */,
+				961ED8BD25899730002C53E2 /* String+Capture.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		96788CA0257F4C5E004E66DE = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +199,7 @@
 				96C8512F2581BBE800175694 /* Repositories */,
 				96C8509D25809BCE00175694 /* Models */,
 				96788CAB257F4C5F004E66DE /* Assets.xcassets */,
+				961ED89E25899730002C53E2 /* modules */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -194,7 +269,8 @@
 		96C850D12580ADD700175694 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				96788CA9257F4C5E004E66DE /* ContentView.swift */,
+				961ED8932589962B002C53E2 /* TopMenuView.swift */,
+				96788CA9257F4C5E004E66DE /* ActivitiesView.swift */,
 				96C851612581E90C00175694 /* DetailView.swift */,
 			);
 			path = Views;
@@ -403,12 +479,21 @@
 				96C850DF2580BA8800175694 /* PomodoroState.swift in Sources */,
 				96C851622581E90C00175694 /* DetailView.swift in Sources */,
 				96C850EB2580BACF00175694 /* PomodoroAction.swift in Sources */,
+				961ED8942589962B002C53E2 /* TopMenuView.swift in Sources */,
+				961ED8CE25899730002C53E2 /* Enum+Description.swift in Sources */,
+				961ED8DE25899730002C53E2 /* String+Snakenized.swift in Sources */,
 				96C850AF2580A11F00175694 /* PomodoroHubRepository.swift in Sources */,
 				96788CD4257F4C5F004E66DE /* PomodoroHubApp.swift in Sources */,
+				961ED8E025899730002C53E2 /* String+Encript.swift in Sources */,
 				96C851062580BBE700175694 /* PomodoroReducer.swift in Sources */,
 				96788CD2257F4C5F004E66DE /* PomodoroHub.xcdatamodeld in Sources */,
+				961ED8E625899730002C53E2 /* String+DateFormat.swift in Sources */,
+				961ED8E825899730002C53E2 /* String+Capture.swift in Sources */,
+				961ED8E425899730002C53E2 /* String+Camelized.swift in Sources */,
 				96C850F32580BB0A00175694 /* PomodoroStore.swift in Sources */,
-				96788CD6257F4C5F004E66DE /* ContentView.swift in Sources */,
+				961ED8E225899730002C53E2 /* String+Localized.swift in Sources */,
+				961ED8CC25899730002C53E2 /* Date+FormatterStr.swift in Sources */,
+				96788CD6257F4C5F004E66DE /* ActivitiesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +504,21 @@
 				96C850E02580BA8800175694 /* PomodoroState.swift in Sources */,
 				96C851632581E90C00175694 /* DetailView.swift in Sources */,
 				96C850EC2580BACF00175694 /* PomodoroAction.swift in Sources */,
+				961ED8952589962B002C53E2 /* TopMenuView.swift in Sources */,
+				961ED8CF25899730002C53E2 /* Enum+Description.swift in Sources */,
+				961ED8DF25899730002C53E2 /* String+Snakenized.swift in Sources */,
 				96C850B02580A11F00175694 /* PomodoroHubRepository.swift in Sources */,
 				96788CD5257F4C5F004E66DE /* PomodoroHubApp.swift in Sources */,
+				961ED8E125899730002C53E2 /* String+Encript.swift in Sources */,
 				96C851072580BBE700175694 /* PomodoroReducer.swift in Sources */,
 				96788CD3257F4C5F004E66DE /* PomodoroHub.xcdatamodeld in Sources */,
+				961ED8E725899730002C53E2 /* String+DateFormat.swift in Sources */,
+				961ED8E925899730002C53E2 /* String+Capture.swift in Sources */,
+				961ED8E525899730002C53E2 /* String+Camelized.swift in Sources */,
 				96C850F42580BB0A00175694 /* PomodoroStore.swift in Sources */,
-				96788CD7257F4C5F004E66DE /* ContentView.swift in Sources */,
+				961ED8E325899730002C53E2 /* String+Localized.swift in Sources */,
+				961ED8CD25899730002C53E2 /* Date+FormatterStr.swift in Sources */,
+				96788CD7257F4C5F004E66DE /* ActivitiesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

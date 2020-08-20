@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ActivitiesView.swift
 //  Shared
 //
 //  Created by 鈴木 航 on 2020/12/08.
@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+struct ActivitiesView: View {
     @EnvironmentObject var store: PomodoroStore
     @Environment(\.managedObjectContext) private var viewContext
 
@@ -84,6 +84,6 @@ private let itemFormatter: DateFormatter = {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PomodoroHubRepository.preview.container.viewContext)
+        ActivitiesView().environment(\.managedObjectContext, PomodoroHubRepository.preview.container.viewContext)
     }
 }

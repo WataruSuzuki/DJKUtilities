@@ -15,7 +15,7 @@ struct PomodoroHubApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TopMenuView()
                 .environment(\.managedObjectContext, repository.context)
                 .environmentObject(store)
         }

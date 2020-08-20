@@ -11,7 +11,11 @@ import SwiftUI
 struct PomodoroHubRepository {
     static let shared = PomodoroHubRepository()
 
+    #if DEBUG
     let container: NSPersistentCloudKitContainer
+    #else
+    private let container: NSPersistentCloudKitContainer
+    #endif
     var context: NSManagedObjectContext {
         get {
             return container.viewContext
