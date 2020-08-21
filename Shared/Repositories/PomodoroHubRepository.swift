@@ -44,6 +44,29 @@ struct PomodoroHubRepository {
             }
         })
     }
+    
+    func play() -> Session? {
+        let newSession = Session(context: context)
+        newSession.playedAt = Date()
+        do {
+            try context.save()
+            return newSession
+        } catch {
+            print(error.localizedDescription)
+            return nil
+        }
+    }
+    
+    func pause(session: Session) -> Bool {
+        session.pausedAt = Date()
+        do {
+            try context.save()
+            return true
+        } catch {
+            print(error.localizedDescription)
+            return false
+        }
+    }
 
     func addItem() {
         let newItem = Session(context: context)

@@ -10,7 +10,6 @@ import CoreData
 
 struct ActivitiesView: View {
     @EnvironmentObject var store: PomodoroStore
-    @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Session.playedAt, ascending: true)],
@@ -37,7 +36,7 @@ struct ActivitiesView: View {
                     Image(systemName: "plus")
                 }))
     }
-    #endif //iOS
+    #endif//iOS
     
     #if os(macOS)
     private var macOSBody: some View {

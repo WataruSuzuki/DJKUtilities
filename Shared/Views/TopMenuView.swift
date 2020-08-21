@@ -12,19 +12,19 @@ struct TopMenuView: View {
     var body: some View {
         TabView() {
             Menu(
-                menu: TopMenus.session,
-                dependencyView: AnyView(Text(TopMenus.session.describing))
+                menu: .session,
+                dependencyView: AnyView(SessionView())
             )
             Menu(
-                menu: TopMenus.tasks,
+                menu: .tasks,
                 dependencyView: AnyView(Text(TopMenus.tasks.describing))
             )
             Menu(
-                menu: TopMenus.activities,
+                menu: .activities,
                 dependencyView: AnyView(ActivitiesView())
             )
             Menu(
-                menu: TopMenus.settings,
+                menu: .settings,
                 dependencyView: AnyView(Text(TopMenus.settings.describing))
             )
         }

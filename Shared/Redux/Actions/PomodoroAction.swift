@@ -10,6 +10,9 @@ import Foundation
 import Foundation
 
 enum PomodoroAction {
-    case play,
-         pause
+    case idle,
+         play,
+         pause,
+         interruption,
+         complete
 }

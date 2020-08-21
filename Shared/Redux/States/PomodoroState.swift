@@ -8,11 +8,5 @@
 import Foundation
 
 struct PomodoroState {
-    var current: SessionStatus
-}
-
-enum SessionStatus: Int, CaseIterable {
-    case determined = 0,
-         play,
-         pause
+    var session: SessionState
 }

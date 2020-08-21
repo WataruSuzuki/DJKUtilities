@@ -12,7 +12,6 @@ final class Store<State, Action>: ObservableObject {
     
     // Read only access to Session state
     @Published private(set) var state: State
-
     private let reducer: Reducer<State, Action>
 
     init(initialState: State, reducer: @escaping Reducer<State, Action>) {
