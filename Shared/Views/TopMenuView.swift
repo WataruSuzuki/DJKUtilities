@@ -17,7 +17,7 @@ struct TopMenuView: View {
             )
             Menu(
                 menu: .tasks,
-                dependencyView: AnyView(Text(TopMenus.tasks.describing))
+                dependencyView: AnyView(TasksView())
             )
             Menu(
                 menu: .activities,

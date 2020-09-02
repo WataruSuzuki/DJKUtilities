@@ -59,6 +59,8 @@
 		96C851072580BBE700175694 /* PomodoroReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C851052580BBE700175694 /* PomodoroReducer.swift */; };
 		96C851622581E90C00175694 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C851612581E90C00175694 /* DetailView.swift */; };
 		96C851632581E90C00175694 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C851612581E90C00175694 /* DetailView.swift */; };
+		CCD1E3C025909EA9005E50AA /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3B825909EA9005E50AA /* TasksView.swift */; };
+		CCD1E3C125909EA9005E50AA /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1E3B825909EA9005E50AA /* TasksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,7 @@
 		96C850F22580BB0A00175694 /* PomodoroStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroStore.swift; sourceTree = "<group>"; };
 		96C851052580BBE700175694 /* PomodoroReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroReducer.swift; sourceTree = "<group>"; };
 		96C851612581E90C00175694 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CCD1E3B825909EA9005E50AA /* TasksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +305,7 @@
 				961ED8932589962B002C53E2 /* TopMenuView.swift */,
 				961ED92A25899ACD002C53E2 /* SessionView.swift */,
 				961ED92B25899ACD002C53E2 /* Session */,
+				CCD1E3B825909EA9005E50AA /* TasksView.swift */,
 				96788CA9257F4C5E004E66DE /* ActivitiesView.swift */,
 				96C851612581E90C00175694 /* DetailView.swift */,
 			);
@@ -529,6 +533,7 @@
 				961ED93125899ACD002C53E2 /* ReviewingView.swift in Sources */,
 				961ED8E425899730002C53E2 /* String+Camelized.swift in Sources */,
 				96C850F32580BB0A00175694 /* PomodoroStore.swift in Sources */,
+				CCD1E3C025909EA9005E50AA /* TasksView.swift in Sources */,
 				961ED8E225899730002C53E2 /* String+Localized.swift in Sources */,
 				961ED92F25899ACD002C53E2 /* SessionView.swift in Sources */,
 				961ED8CC25899730002C53E2 /* Date+FormatterStr.swift in Sources */,
@@ -559,6 +564,7 @@
 				961ED93225899ACD002C53E2 /* ReviewingView.swift in Sources */,
 				961ED8E525899730002C53E2 /* String+Camelized.swift in Sources */,
 				96C850F42580BB0A00175694 /* PomodoroStore.swift in Sources */,
+				CCD1E3C125909EA9005E50AA /* TasksView.swift in Sources */,
 				961ED8E325899730002C53E2 /* String+Localized.swift in Sources */,
 				961ED93025899ACD002C53E2 /* SessionView.swift in Sources */,
 				961ED8CD25899730002C53E2 /* Date+FormatterStr.swift in Sources */,
